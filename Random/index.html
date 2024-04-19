@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random</title>
+</head>
+<body>
+    <h1>Random</h1>
+    <p style="font-size: 30px; color: blue;"> 
+        Math.random()<br><br>
+       <u> Math.floor(x):</u><br>
+        (1)Math.floor(Math.random() * 10);<br>
+        (2)Math.floor(Math.random() * 10) + 1;
+        <br><br>  
+        <u>Math.min() and Math.max():</u><br>
+        (1)function getRndInteger(min, max) { <br>
+            return Math.floor(Math.random() * (max - min)) + min;
+        }<br>
+        (2)function getRndInteger(min, max) {<br>
+            return Math.floor(Math.random() * (max - min + 1) ) + min;
+          }
+        
+    </p>
+    <p2 style="font-size: 20px; color: rgb(255, 77, 0);">
+    </p2>
+    <div style="font-size: 50px; color: rgb(0, 255, 51);">OUTPUT:</div>
+
+    <!-- ************Function**************** -->
+    <button onclick="document.getElementById('demo').innerHTML = getRndInteger(0,10)">Click Me!(0 to 10)</button><br>
+    <button onclick="document.getElementById('demo2').innerHTML = getRndInteger(1,10)">Click Me!!(1 to 10)</button>
+
+    <p id="demo"></p>
+    <p id="demo2"></p>
+
+</body>
+<script>
+   function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+function getRndInteger(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;}
+</script>
+<script src="script.js"></script>
+</html>
