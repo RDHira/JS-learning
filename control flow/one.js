@@ -37,7 +37,7 @@ if (balance < 500) {
 }
 
 
-// *******************************************
+// ********Operator using in condition********************
 const userLoggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
