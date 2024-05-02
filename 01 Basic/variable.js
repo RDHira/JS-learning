@@ -19,3 +19,5 @@ let Courses;
 
 
 console.table([fName, Class, Courses]);
+
+

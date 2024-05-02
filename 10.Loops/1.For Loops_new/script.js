@@ -39,6 +39,7 @@ for(let x=0; x<10; x++){
 
 
 // ******** break and continue ********************
+//Break: it is used to terminate the control flow
 document.write('*******break_Loops*******',"<br>");
 for (let b = 1; b <=20; b++) {
 
@@ -50,12 +51,13 @@ for (let b = 1; b <=20; b++) {
 }
 
 // *********** Continue ****************
+// It is not the terminate control flow, it continues at one time
 document.write('********Continue_Loops*******',"<br>");
 for (let c = 1; c <=20; c++) {
 
     if(c==10){
         document.write("<b>Detected the 10</b>","<br>");
-        continue;      // Uses of Break
+        continue;      // Uses of continue
     }
     document.write('Value  of  c  is :', c +"<br>");
 

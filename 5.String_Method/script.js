@@ -1,7 +1,7 @@
+// ****** length of the string ()***********
 let str="Hello User";
 let a=str.length;
 document.write(a);
-console.log(a);
 document.write("<br>");
 
 // ******tolowercase()*******

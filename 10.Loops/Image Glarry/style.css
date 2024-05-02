@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+#imageGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 10px;
+}
+
+.img-thumbnail {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
